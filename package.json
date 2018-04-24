@@ -1,0 +1,33 @@
+{
+  "name": "chrome-extension-starter",
+  "version": "1.0.0",
+  "description": "A starter template for chrome extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel -D src --out-dir dist --copy-files",
+    "start": "webpack --mode=development -w",
+    "build": "rm -rf dist && webpack --mode=production"
+  },
+  "keywords": [
+    "Chrome",
+    "JavaScript",
+    "Extension",
+    "Webpack",
+    "Babel"
+  ],
+  "author": "Abdul Basit",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "eslint": "^4.19.1",
+    "eslint-config-abdul": "git+https://github.com/abdulbasitjs/eslint-config-abdul.git",
+    "rimraf": "^2.6.2",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
