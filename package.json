@@ -25,7 +25,7 @@
     "babel-preset-env": "^1.6.1",
     "copy-webpack-plugin": "^4.5.1",
     "eslint": "^4.19.1",
-    "eslint-config-abdul": "git+https://github.com/abdulbasitjs/eslint-config-abdul.git",
+    "eslint-config-abdul": "abdulbasitjs/eslint-config-abdul#master",
     "rimraf": "^2.6.2",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.15"
