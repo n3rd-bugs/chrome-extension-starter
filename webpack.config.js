@@ -5,7 +5,6 @@ module.exports = {
     devtool: 'cheap-module-source-map',
 	entry: {
         'index': './src/index',
-        'options': './src/options',
         'background': './src/background'
     },
 	output: {
