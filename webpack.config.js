@@ -3,13 +3,13 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     devtool: 'cheap-module-source-map',
-	entry: {
+    entry: {
         'index': './src/index',
         'background': './src/background'
     },
-	output: {
-		path: path.resolve(__dirname, 'dist'),
-		filename: '[name].js'
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: '[name].js'
     },
     plugins: [
         new CopyWebpackPlugin([{ from: 'src/**', to: '', flatten: true, ignore: ['*.js'] }])
